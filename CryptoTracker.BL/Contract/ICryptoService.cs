@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CryptoTracker.BL.Implementation
+namespace CryptoTracker.BL.Contract
 {
     public interface ICryptoService
     {

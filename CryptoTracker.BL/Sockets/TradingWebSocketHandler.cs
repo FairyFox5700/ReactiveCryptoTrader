@@ -1,6 +1,6 @@
 using System;
 using System.Reactive.Linq;
-using CryptoTracker.BL.Implementation;
+using CryptoTracker.BL.Contract;
 using Microsoft.Extensions.Logging;
 
 namespace CryptoTracker.BL.Sockets

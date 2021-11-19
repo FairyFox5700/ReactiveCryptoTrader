@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
-using CryptoTracker.BL.Implementation;
+using CryptoTracker.BL.Contract;
 using CryptoTracker.BL.Mappers;
 using CryptoTracker.BL.Models;
 using CryptoTracker.BL.Utlis;
@@ -11,7 +11,7 @@ using CryptoTracker.DAL.Contract;
 using CryptoTrackerDomain;
 using Microsoft.Extensions.Logging;
 
-namespace CryptoTracker.BL.Contract
+namespace CryptoTracker.BL.Implementation
 {
     public class DefaultTradeService:ITradeService
     {

@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Reactive.Linq;
-using CryptoTracker.BL.Implementation;
+using CryptoTracker.BL.Contract;
 using CryptoTracker.BL.Models;
 using CryptoTracker.BL.Utlis;
 using Microsoft.Extensions.Logging;
 
-namespace CryptoTracker.BL.Contract
+namespace CryptoTracker.BL.Implementation
 {
 	public class DefaultPriceService : IPriceService
 	{

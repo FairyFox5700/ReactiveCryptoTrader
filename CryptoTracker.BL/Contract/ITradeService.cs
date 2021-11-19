@@ -1,8 +1,7 @@
 using System;
 using CryptoTracker.BL.Models;
-using CryptoTrackerDomain;
 
-namespace CryptoTracker.BL.Implementation
+namespace CryptoTracker.BL.Contract
 {
     public interface ITradeService
     {

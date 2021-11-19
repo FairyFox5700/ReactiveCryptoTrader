@@ -1,7 +1,7 @@
 using System;
 using CryptoTracker.BL.Models;
 
-namespace CryptoTracker.BL.Implementation
+namespace CryptoTracker.BL.Contract
 {
     public interface IPriceService
     {
